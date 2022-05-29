@@ -13,7 +13,7 @@ function startChronometer() {
             minutesSpan.textContent = formatValue(minuteValue)
         }
         secondsSpan.textContent = formatValue(secondsValue)
-    }, 100);
+    }, 1000);
 }
 function formatValue(value){
     return ("0" + value).slice(-2);
