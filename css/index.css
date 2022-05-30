@@ -12,6 +12,9 @@ html{
 ul{
     list-style: none;
 }
+button {
+    cursor: pointer;
+}
 @media (prefers-color-scheme: dark){
     body{
         background-color: var(--blue-dark);

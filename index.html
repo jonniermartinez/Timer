@@ -20,17 +20,19 @@
             <nav class="header--nav">
                 <ul class="header--list">
                     <li>
-                        <button class="button button-header" title="Chronometer">
+                        <button class="button button-header" title="Chronometer" id="chronometer-button"
+                        onclick="executeChronometer()"
+                        >
                             <i class="fa-solid fa-hourglass"></i>
                         </button>
                     </li>
                     <li>
-                        <button class="button button-header" title="Timer">
+                        <button class="button button-header" title="Timer" id="timer-button" onclick="executeTimer()">
                             <i class="fa-solid fa-clock"></i>
                         </button>
                     </li>
                     <li>
-                        <button class="button button-header" title="Alarm">
+                        <button class="button button-header" title="Alarm" onclick="executePomodoro()">
                             <i class="fa-solid fa-bell"></i>
                         </button>
                     </li>
